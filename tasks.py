@@ -31,10 +31,11 @@ def wordcount(adress):
                 for i in range(0, len(process)-1):
                     process[i] = 0
                     process[8] = process[8] + 1
-#return result
-return occur    
-
                 
+#return result
+    return occur    
+
+
 #Print result
 '''
     print "Antalet forekomster av ordet han: " + str(process[0])
