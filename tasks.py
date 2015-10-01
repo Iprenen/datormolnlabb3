@@ -8,8 +8,8 @@ def wordcount(adress):
 
 #Initate needed variables, open file that's to be processed
     tweet = open(adress, 'r')
-    occur = [0,0,0,0,0,0,0,0,0]
-    process = [0,0,0,0,0,0,0,0,0]
+    occur = [0,0,0,0,0,0,0,0]
+    process = [0,0,0,0,0,0,0,0]
 
     
 #Search for occurances of different words
