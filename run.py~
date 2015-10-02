@@ -1,0 +1,26 @@
+import tasks
+
+tweet1  = 'http://smog.uppmax.uu.se:8080/swift/v1/tweets/tweets_1.txt'
+tweet2  = 'http://smog.uppmax.uu.se:8080/swift/v1/tweets/tweets_2.txt'
+tweet3  = 'http://smog.uppmax.uu.se:8080/swift/v1/tweets/tweets_3.txt'
+tweet4  = 'http://smog.uppmax.uu.se:8080/swift/v1/tweets/tweets_4.txt'
+tweet5  = 'http://smog.uppmax.uu.se:8080/swift/v1/tweets/tweets_5.txt'
+tweet6  = 'http://smog.uppmax.uu.se:8080/swift/v1/tweets/tweets_6.txt'
+tweet7  = 'http://smog.uppmax.uu.se:8080/swift/v1/tweets/tweets_7.txt'
+tweet8  = 'http://smog.uppmax.uu.se:8080/swift/v1/tweets/tweets_8.txt'
+tweet9  = 'http://smog.uppmax.uu.se:8080/swift/v1/tweets/tweets_9.txt'
+tweet10  = 'http://smog.uppmax.uu.se:8080/swift/v1/tweets/tweets_10.txt'
+tweet11  = 'http://smog.uppmax.uu.se:8080/swift/v1/tweets/tweets_11.txt'
+tweet12  = 'http://smog.uppmax.uu.se:8080/swift/v1/tweets/tweets_12.txt'
+tweet13  = 'http://smog.uppmax.uu.se:8080/swift/v1/tweets/tweets_13.txt'
+tweet14  = 'http://smog.uppmax.uu.se:8080/swift/v1/tweets/tweets_14.txt'
+tweet15  = 'http://smog.uppmax.uu.se:8080/swift/v1/tweets/tweets_15.txt'
+tweet16  = 'http://smog.uppmax.uu.se:8080/swift/v1/tweets/tweets_16.txt'
+tweet17  = 'http://smog.uppmax.uu.se:8080/swift/v1/tweets/tweets_17.txt'
+tweet18  = 'http://smog.uppmax.uu.se:8080/swift/v1/tweets/tweets_18.txt'
+tweet19  = 'http://smog.uppmax.uu.se:8080/swift/v1/tweets/tweets_19.txt'
+
+
+
+
+result1 = wordcount.delay(address)
