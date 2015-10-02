@@ -1,6 +1,6 @@
 from tasks import wordcount
 
-compresult = [0,0,0,0,0,0,0,0]
+compresult = [0,0,0,0,0,0,0,0,0]
 
 tweet1  = 'http://smog.uppmax.uu.se:8080/swift/v1/tweets/tweets_1.txt'
 tweet2  = 'http://smog.uppmax.uu.se:8080/swift/v1/tweets/tweets_2.txt'
@@ -72,7 +72,7 @@ result19 = result19.get()
 
 
 for i in range(0, len(compresult)):
-    compresult[i] = result1[i] + result2[i] + result3[i] + result4[i] + result5[i] + result6[i] + result7[i] + result8[i] + result9[i] + result10[i] + result11[i] + result12[i ] + result13[i] + result14[i] + result15[i] + result16[i] + result17[i] + result18[i] + result19[i]
+    compresult[i] = result1[i] + result2[i] + result3[i] + result4[i] + result5[i] + result6[i] + result7[i] + result8[i] + result9[i] + result10[i] + result11[i] + result12[i] + result13[i] + result14[i] + result15[i] + result16[i] + result17[i] + result18[i] + result19[i]
         
 
 print "Antalet forekomster av ordet han: " + str(compresult[0])
