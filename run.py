@@ -48,17 +48,16 @@ result19 = wordcount.delay(tweet19)
 while result1.ready() and result2.ready() and result3.ready() and result4.ready() and result5.ready() and result6.ready() and result7.ready() and result8.ready() and result9.ready() and result10.ready() and result11.ready() and result12.ready() and result13.ready() and result14.ready() and result15.ready() and result16.ready() and result17.ready() and result18.ready() and result19.ready():
     print "Not ready"
 
-    else: 
-        for i in range(0, len(comresult))
-        compresult[i] = result1[i] + result2[i] + result3[i] + result4[i] + result5[i] + result6[i] + result7[i] + result8[i] + result9[i] + result10[i] + result11[i] + result12[i ] + result13[i] + result14[i] + result15[i] + result16[i] + result17[i] + result18[i] + result19[i]
+for i in range(0, len(comresult)):
+    compresult[i] = result1[i] + result2[i] + result3[i] + result4[i] + result5[i] + result6[i] + result7[i] + result8[i] + result9[i] + result10[i] + result11[i] + result12[i ] + result13[i] + result14[i] + result15[i] + result16[i] + result17[i] + result18[i] + result19[i]
         
 
-    print "Antalet forekomster av ordet han: " + str(compresult[0])
-    print "Antalet forekomster av ordet hon: " + str(compresult[1])
-    print "Antalet forekomster av ordet den: " + str(compresult[2])
-    print "Antalet forekomster av ordet det: " + str(compresult[3])
-    print "Antalet forekomster av ordet denna: " + str(compresult[4])
-    print "Antalet forekomster av ordet denne: " + str(compresult[5])
-    print "Antalet forekomster av ordet hen: " + str(compresult[6])
-    print "Antal tweets: " + str(compresult[7])
-    print "Antal retweets: " + str(compresult[8])
+print "Antalet forekomster av ordet han: " + str(compresult[0])
+print "Antalet forekomster av ordet hon: " + str(compresult[1])
+print "Antalet forekomster av ordet den: " + str(compresult[2])
+print "Antalet forekomster av ordet det: " + str(compresult[3])
+print "Antalet forekomster av ordet denna: " + str(compresult[4])
+print "Antalet forekomster av ordet denne: " + str(compresult[5])
+print "Antalet forekomster av ordet hen: " + str(compresult[6])
+print "Antal tweets: " + str(compresult[7])
+print "Antal retweets: " + str(compresult[8])
