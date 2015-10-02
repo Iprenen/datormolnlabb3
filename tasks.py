@@ -28,7 +28,7 @@ def wordcount(adress):
         if line.find('"retweeted":true') == -1: 
             for i in range(0, len(process)-1):
                 occur[i] = occur[i] + process[i]
-            elif: line.find('"retweeted":true') != -1: 
+            elif line.find('"retweeted":true') != -1: 
                 for i in range(0, len(process)-1):
                     process[i] = 0
                     process[8] = process[8] + 1
