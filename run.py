@@ -1,4 +1,4 @@
-import tasks
+from tasks import wordcount
 
 compresult = [0,0,0,0,0,0,0,0]
 
