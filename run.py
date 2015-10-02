@@ -48,6 +48,29 @@ result19 = wordcount.delay(tweet19)
 while result1.ready() and result2.ready() and result3.ready() and result4.ready() and result5.ready() and result6.ready() and result7.ready() and result8.ready() and result9.ready() and result10.ready() and result11.ready() and result12.ready() and result13.ready() and result14.ready() and result15.ready() and result16.ready() and result17.ready() and result18.ready() and result19.ready():
     print "Not ready"
 
+
+result1 = result1.get()
+result2 = result2.get()
+result3 = result3.get()
+result4 = result4.get()
+result5 = result5.get()
+result6 = result6.get()
+result7 = result7.get()
+result8 = result8.get()
+result9 = result9.get()
+result10 = result10.get()
+result11 = result11.get()
+result12 = result12.get()
+result13 = result13.get()
+result14 = result14.get()
+result15 = result15.get()
+result16 = result16.get()
+result17 = result17.get()
+result18 = result18.get()
+result19 = result19.get()
+
+
+
 for i in range(0, len(compresult)):
     compresult[i] = result1[i] + result2[i] + result3[i] + result4[i] + result5[i] + result6[i] + result7[i] + result8[i] + result9[i] + result10[i] + result11[i] + result12[i ] + result13[i] + result14[i] + result15[i] + result16[i] + result17[i] + result18[i] + result19[i]
         
