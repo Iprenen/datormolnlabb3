@@ -1,4 +1,6 @@
 import string
+import urllib2
+
 from celery import Celery
 
 app = Celery('tasks', backend='amqp', broker='amqp://')
@@ -6,14 +8,13 @@ app = Celery('tasks', backend='amqp', broker='amqp://')
 @app.task
 def wordcount(adress):
 
-#Initate needed variables, open file that's to be processed
-    tweet = open(adress, 'r')
+#Initate needed variables
     occur = [0,0,0,0,0,0,0,0,0]
     process = [0,0,0,0,0,0,0,0,0]
 
     
 #Search for occurances of different words
-    for line in tweet.readlines():
+    for line in urllib2.urlopen(adress):
         process[0] = process[0] + string.count(line, 'han')
         process[1] = process[1] + string.count(line, 'hon')
         process[2] = process[2] + string.count(line, 'den')
