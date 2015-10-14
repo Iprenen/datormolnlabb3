@@ -1,7 +1,7 @@
-import string
-import urllib2
-
 from celery import Celery
+import os
+import json
+import urllib2
 
 app = Celery('tasks', backend='amqp', broker='amqp://worker:worker@192.168.0.5/rabbithost')
 
