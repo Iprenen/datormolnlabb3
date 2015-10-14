@@ -3,7 +3,7 @@ import urllib2
 
 from celery import Celery
 
-app = Celery('tasks', backend='amqp', broker='amqp://worker:worker@192.168.0.48/rabbithost')
+app = Celery('tasks', backend='amqp', broker='amqp://worker:worker@192.168.0.5/rabbithost')
 
 @app.task
 def wordcount(adress):
