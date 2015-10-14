@@ -8,7 +8,7 @@ app = Celery('tasks', backend='amqp', broker='amqp://worker:worker@192.168.0.5/r
 @app.task
 def wordcount(adress):
 
-pronoms={"han": 0, "hon": 0, "den": 0, "det": 0, "denna": 0, "denne": 0, "hen": 0}
+    pronoms={"han": 0, "hon": 0, "den": 0, "det": 0, "denna": 0, "denne": 0, "hen": 0}
 	n = 0 
 
 	#tweets = conn.get_container("tweets")[1]
