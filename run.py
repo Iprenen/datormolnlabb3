@@ -15,10 +15,6 @@ from collections import Counter
 
 app = Flask(__name__)
 
-@app.route('/test', methods=['GET'])
-def print_hello():
-	return 'Tjo Valle! Allt bra? :)', 200
-
 @app.route('/Labb3/messaging', methods=['GET'])
 def cow_say():
 	tweets = []
@@ -34,11 +30,11 @@ def cow_say():
 	D = tweets[12:16]
 	E = tweets[16:]
 
-	job = group(parseTweets.s(A), 
-		parseTweets.s(B), 
-		parseTweets.s(C),
-		parseTweets.s(D),
-		parseTweets.s(E))
+	job = group(wordcount.s(A), 
+		wordcount.s(B), 
+		wordcount.s(C),
+		wordcount.s(D),
+		wordcount.s(E))
 
 	tweetTask = job.apply_async()
 	print "Celery is working..."
