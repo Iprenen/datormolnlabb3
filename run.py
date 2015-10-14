@@ -2,7 +2,7 @@
 
 from celery import Celery
 from celery import group
-from tasks import parseTweets
+from tasks import wordcount
 from flask import Flask, jsonify
 import subprocess
 import sys
