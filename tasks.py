@@ -34,11 +34,11 @@ def wordcount(adress):
                     for i in pronoms.keys():
                         if(i in tmp):
                             pronoms[i] += 1
-			except:
-                            pass
-                            objects.close()
-                            pronoms.update({"num_of_tweets": n})
-                            return pronoms
+            except:
+                pass
+        objects.close()
+    pronoms.update({"num_of_tweets": n})
+    return pronoms
                             
 '''
 #Initate needed variables
