@@ -15,7 +15,7 @@ from collections import Counter
 
 app = Flask(__name__)
 
-@app.route('/Labb3/messaging', methods=['GET'])
+@app.route('/run', methods=['GET'])
 def cow_say():
 	tweets = []
 	req = urllib2.Request("http://smog.uppmax.uu.se:8080/swift/v1/tweets")
