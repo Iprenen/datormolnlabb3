@@ -3,7 +3,7 @@ import os
 import json
 import urllib2
 
-app = Celery('tasks', backend='amqp', broker='amqp://worker:worker@192.168.0.5/rabbithost')
+app = Celery('tasks', backend='amqp', broker='amqp://worker:worker@192.168.0.142/rabbithost')
 
 @app.task
 def wordcount(tweetName):
