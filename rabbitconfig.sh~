@@ -8,4 +8,4 @@ sudo rabbitmqctl add_vhost rabbithost
 sudo rabbitmqctl set_permissions -p rabbithost user ".*" ".*" ".*"
 
 # restart rabbit
-sudo rabbitmqctl restarts
+sudo rabbitmqctl restart
